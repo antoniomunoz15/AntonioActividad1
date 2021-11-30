@@ -6,13 +6,17 @@
 package geometria;
 
 /**
- *
- * @author javier
+ *Clase que se definen las propiedades y los métodos que tendra
+ *la clase geometría
+ * @author Antonio Muñoz Reinoso
+ * @version 1.0
+ * @since 30-11-2021
  */
 public class Geometria {
 
     /**
-     * @param args the command line arguments
+     * Metodo principal
+     * @param args línea de argumento de comando
      */
     public static void main(String[] args) 
     {

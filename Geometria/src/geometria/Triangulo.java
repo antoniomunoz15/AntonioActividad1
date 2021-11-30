@@ -11,11 +11,26 @@ package geometria;
  */
 public class Triangulo implements FiguraGeometrica
 {
+    /*Atributo tipo numérico que guarda parte decimal y entera en memoria que
+    contiene el valor de la base
+    */
     private double base;
+    /*Atributo tipo numérico que guarda parte decimal y entera en memoria que
+    contiene el valor de la altura
+    */
     private double altura;
+    /*Atributo tipo numérico que guarda parte decimal y entera en memoria que
+    contiene el valor del area del triangulo
+    */
     private double areaTriangulo;
     
-
+    
+    /**
+     * Método Constructor de la clase Triángulo
+     * @param base valor de la base
+     * @param altura valor de la altura
+     */
+    
     public Triangulo(double base, double altura) 
     {
         this.base = base;
@@ -48,6 +63,10 @@ public class Triangulo implements FiguraGeometrica
     }
 
     @Override
+    
+    /**
+     * @param  
+     */
     public void area() 
     {
         areaTriangulo = base * altura / 2;
